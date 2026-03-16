@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Sun, Zap, DollarSign, Clock, PanelTop, Camera, X, Image, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
+import SavingsChart from "@/components/SavingsChart";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
