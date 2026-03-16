@@ -132,6 +132,22 @@ const translations: Translations = {
   "calc.co2": { en: "CO₂ Reduction", ar: "تقليل الكربون" },
   "calc.locationPhoto": { en: "Your Location Photo", ar: "صورة موقعك" },
 
+  // Chart
+  "chart.title": { en: "Savings Projection", ar: "توقعات التوفير" },
+  "chart.subtitle": { en: "Projected savings with 0.5% annual panel degradation", ar: "التوفير المتوقع مع انخفاض سنوي 0.5% في أداء الألواح" },
+  "chart.year": { en: "Year", ar: "سنة" },
+  "chart.yrs": { en: "yrs", ar: "سنة" },
+  "chart.annual": { en: "Annual Savings", ar: "التوفير السنوي" },
+  "chart.cumulative": { en: "Cumulative Savings", ar: "التوفير التراكمي" },
+  "chart.net": { en: "Net Savings", ar: "صافي التوفير" },
+  "chart.breakeven": { en: "Break-even", ar: "نقطة التعادل" },
+  "chart.sar": { en: "SAR", ar: "ريال" },
+  "chart.totalSavings": { en: "Total Savings", ar: "إجمالي التوفير" },
+  "chart.paybackAt": { en: "Payback Period", ar: "فترة الاسترداد" },
+  "chart.roi": { en: "Return on Investment", ar: "العائد على الاستثمار" },
+  "chart.co2total": { en: "Total CO₂ Saved", ar: "إجمالي CO₂ الموفر" },
+  "chart.tons": { en: "tons", ar: "طن" },
+
   // Footer
   "footer.desc": { en: "Solar Energy Calculation", ar: "حساب الطاقة الشمسية" },
   "footer.copyright": { en: "© 2026 SHAMS. Graduation Project.", ar: "© 2026 شمس. مشروع تخرج." },
