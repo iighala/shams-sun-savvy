@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Sun, Zap, DollarSign, Clock, PanelTop, Camera, X, Image, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
+import SavingsChart from "@/components/SavingsChart";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
@@ -208,6 +209,13 @@ const Calculator = () => {
                     </motion.div>
                   ))}
                 </div>
+                <SavingsChart
+                  installationCost={results.installationCost}
+                  monthlySavings={results.monthlySavings}
+                  paybackYears={results.paybackYears}
+                  co2Reduction={results.co2Reduction}
+                />
+
                 {photo && (
                   <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }} className="mt-8 bg-card rounded-2xl p-6 border border-border/50 shadow-card">
                     <h4 className="font-heading font-bold text-foreground mb-3">📍 {t("calc.locationPhoto")}</h4>
